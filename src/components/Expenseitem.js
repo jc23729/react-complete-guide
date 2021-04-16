@@ -2,6 +2,7 @@
 //You always create a component, then export it
 //then import in the file you want to use it so you can use it
 //like an html element
+//main thing is to have one root element, so one <div></div> wrapped
 function ExpenseItem() {
   return (
     <div>
