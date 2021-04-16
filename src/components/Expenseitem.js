@@ -3,8 +3,15 @@
 //then import in the file you want to use it so you can use it
 //like an html element
 function ExpenseItem() {
-    return <h2>Expense Item!</h2>
+  return (
+    <div>
+      <div>Date</div>
+      <div>
+        <h2>Title</h2>
+      </div>
+      <div>Amount</div>
+    </div>
+  );
 }
-
 
 export default ExpenseItem;
