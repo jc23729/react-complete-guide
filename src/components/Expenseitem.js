@@ -12,12 +12,12 @@ function ExpenseItem() {
 
   return (
     <div className="expense-item">
-      <div>March 28</div>
+      <div>{expenseDate.toISOString()}</div>
       <div className="expense-item__description">
         <h2>{expenseTitle}</h2>
       </div>
       <div className="expense-item__price">
-        <h2>294.67</h2>
+        <h2>{expenseAmount}</h2>
       </div>
     </div>
   );
