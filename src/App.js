@@ -1,5 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
-
+//App.js is like our main route 
 function App() {
   const expenses = [
     {
