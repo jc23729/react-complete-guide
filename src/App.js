@@ -22,7 +22,7 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-//props usually holds all the values of that element
+  //props usually holds all the values of that element
   return (
     <div>
       <h2>Let's get started!</h2>
