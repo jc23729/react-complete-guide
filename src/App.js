@@ -23,11 +23,11 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  
+
   return (
     <div>
       <h2>Let's get started!</h2>
-      <ExpenseItem></ExpenseItem>
+      <ExpenseItem title={expense[0].title}></ExpenseItem>
       <ExpenseItem></ExpenseItem>
       <ExpenseItem></ExpenseItem>
       <ExpenseItem></ExpenseItem>
