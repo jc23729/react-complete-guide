@@ -3,13 +3,15 @@
 //then import in the file you want to use it so you can use it
 //like an html element
 //main thing is to have one root element, so one <div></div> wrapped
+import './ExpenseItem.css';
+
 function ExpenseItem() {
   return (
-    <div>
-      <div>Date</div>
-      <div>
+    <div className="expense-item">
+      <div>March 28 2021</div>
+      <div className="expense-item__description">
         <h2>Title</h2>
-      </div>
+      <div className="expense-item__price"/>
       <div>Amount</div>
     </div>
   );
