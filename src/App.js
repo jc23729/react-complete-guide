@@ -1,5 +1,5 @@
-import ExpenseItem from "./components/ExpenseItem";
-//App.js is like our main route 
+import Expenses from "./components/Expenses";
+//App.js is like our main route
 function App() {
   const expenses = [
     {
@@ -26,7 +26,8 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      </div>
+      <Expenses/>
+    </div>
   );
 }
 
