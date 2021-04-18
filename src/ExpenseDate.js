@@ -9,7 +9,7 @@ function ExpenseDate(props){
         <div>{year}</div>
         <div>{day}</div>
       </div>
-    )
+    );
 }
 
 export default ExpenseDate;

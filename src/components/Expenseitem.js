@@ -3,7 +3,7 @@
 //then import in the file you want to use it so you can use it
 //like an html element
 //main thing is to have one root element, so one <div></div> wrapped
-import ExpenseDate from "./ExpenseDate";
+import ExpenseDate from "/Users/juancruz/Documents/Projects/react-complete-guide/src/ExpenseDate.js";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
