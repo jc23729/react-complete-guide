@@ -3,7 +3,7 @@
 //then import in the file you want to use it so you can use it
 //like an html element
 //main thing is to have one root element, so one <div></div> wrapped
-import ExpenseDate from './ExpenseDate';
+import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
@@ -13,6 +13,7 @@ function ExpenseItem(props) {
   // props.title key has to match <ExpenseItem title={expenses[0].title
   return (
     <div className="expense-item">
+      <ExpenseDate date = {props.date} />
       <div className="expense-item__description">
         <h2>{props.title}</h2>
       </div>
